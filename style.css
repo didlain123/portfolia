@@ -1,0 +1,91 @@
+@import url();
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    color: #09849f;
+
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://248006.selcdn.ru/main/iblock/6e8/6e85ff7aac07924e0b4bc968ab00c754/7fe789ee62b58f6bbe6d0c2a15fc98d5.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 35px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    font-size: 40px;
+}
+.logo span{
+    color: #f9004d;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+nav ul li a{
+    color: #0e3249;
+    text-decoration: none;
+
+
+}
+nav ul li a:hover{
+    color: #f9004d;
+
+
+
+}
+.login{
+    color: #30424e;
+    font-size: 18px;
+    margin-left: 15px;
+    text-decoration: none;
+}
+.register{
+    color: #0e222e;
+    text-decoration: none;
+    background: #000;
+    padding: 9px 25px;
+    border-radius: 6px;
+    font-size: 18px;
+
+}
+.content{
+    margin-top: 12%;
+    max-width: 600px;
+
+}
+.content h3{
+    font-size: 55px;
+
+}
+.content p{
+    margin-top: 10px;
+    line-height: 25px;
+}
+.link{
+    margin-top: 30px;
+}
+.link .hire{
+    color: #000;
+    background: #34494d;
+    text-decoration: none;
+    padding: 9px 25px;
+    border-radius: 6px;
+
+}
